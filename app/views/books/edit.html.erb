@@ -1,8 +1,7 @@
 <h1>Editing Book</h1>
 
-<form>
+<!--<form></form> ← は不要-->
 <%= render 'form', book: @book %>
-</form>
 
-<%= link_to 'Show', @book %> |
+<%= link_to 'Show', @book %> 
 <%= link_to 'Back', books_path %>
